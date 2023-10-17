@@ -1,4 +1,5 @@
 //* solved it 9/30/23 -- line 11 - Object.keys the log and sort b-a from the log, then slice to kth index
+// iterate through number[] and store to hash map {number: frequency}, then Object.keys the hash, sort it (b-a), and slice it to the kth index
 
 const topKFrequent = function (nums, k) {
   const log = {};

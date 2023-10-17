@@ -1,3 +1,5 @@
+// use a hashmap and iterate through array, store the difference of target num - array[i] as key and index as value
+
 const twoSum = function (nums, target) {
   const log = {};
   let diff;

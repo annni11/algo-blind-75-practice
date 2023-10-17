@@ -1,3 +1,5 @@
+//iterate through string[] and store in hashmap {sorted: original[]}, then do object values of the hashmap
+
 var groupAnagrams = function (strs) {
   //create a log obj
   const log = {};
